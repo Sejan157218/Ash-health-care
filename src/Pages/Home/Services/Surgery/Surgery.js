@@ -1,11 +1,30 @@
 import React from 'react';
-import { Card, Col } from 'react-bootstrap';
+import { Card, Col, Nav } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import "./Surgery.css"
 
 const Surgery = ({img}) => {
     return (
-        <Col>
-            <Card className="shadow p-3 mb-5 bg-body rounded border-0">
-                <Card.Img variant="top" src={img} />
+    //     <div class="wrapper">
+    //     <div class="service-card">
+    //          <img src={img} />
+    //       <div class="info">
+    //         <h1>Mountain</h1>
+    //         <p>Lorem Ipsum is simply dummy text from the
+    //      printing and typeseting industry</p>
+    //         <button class="readme-btn">Read More</button>
+    //       </div>
+    //     </div>
+    
+    //   </div>
+
+
+
+        <Col className="wrapper">
+
+            <Card className="service-card">
+               <div class="service-body">
+               <Card.Img  variant="top" src={img} />
                 <Card.Body>
                     <Card.Title>Sergery</Card.Title>
                     <Card.Text>
@@ -13,7 +32,12 @@ const Surgery = ({img}) => {
                         lead-in to additional content. This content is a little bit longer.
                     </Card.Text>
                 </Card.Body>
+               </div>
+               <div class="info">
+                   <button>sdfsdfdsfg</button>
+               </div>
             </Card>
+           
         </Col>
     );
 };

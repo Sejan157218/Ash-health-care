@@ -7,6 +7,8 @@ import Laboratory from '../Laboratory/Laboratory';
 import Pediatrics from '../Pediatrics/Pediatrics';
 import Surgery from '../Surgery/Surgery';
 import Therapist from '../Therapist/Therapist';
+
+import SmoothList from 'react-smooth-list';
 import { Link } from 'react-router-dom';
 
 
@@ -29,19 +31,19 @@ const Services = () => {
                 <Col xs={12} md={9}>
                     <Row xs={1} md={3} className="g-2">
                         {
-                            active === "cardiology" && Array.from({ length: 6 }).map((_, idx) => <Cardiology img={img}></Cardiology>)
+                            active === "cardiology" && Array.from({ length: 6 }).map((_, idx) =><SmoothList> <Cardiology img={img}></Cardiology></SmoothList>)
                         }
                         {
-                            active === "laboratory" && Array.from({ length: 6 }).map((_, idx) => <Laboratory img={img}></Laboratory>)
+                            active === "laboratory" && Array.from({ length: 6 }).map((_, idx) =><SmoothList> <Laboratory img={img}></Laboratory></SmoothList>)
                         }
                         {
-                            active === "pediatrics" && Array.from({ length: 6 }).map((_, idx) => <Pediatrics img={img}></Pediatrics>)
+                            active === "pediatrics" && Array.from({ length: 6 }).map((_, idx) =><SmoothList> <Pediatrics img={img}></Pediatrics></SmoothList>)
                         }
                         {
-                            active === "surgery" && Array.from({ length: 6 }).map((_, idx) => <Surgery img={img}></Surgery>)
+                            active === "surgery" && Array.from({ length: 6 }).map((_, idx) => <SmoothList><Surgery img={img}></Surgery></SmoothList>)
                         }
                         {
-                            active === "therapist" && Array.from({ length: 6 }).map((_, idx) => <Therapist img={img}></Therapist>)
+                            active === "therapist" && Array.from({ length: 6 }).map((_, idx) =><SmoothList> <Therapist img={img}></Therapist></SmoothList>)
                         }
 
                     </Row>
