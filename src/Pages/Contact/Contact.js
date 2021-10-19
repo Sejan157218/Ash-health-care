@@ -1,17 +1,14 @@
 import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-import "./Contact.css"
-
+import "./Contact.css";
+import images from '../../Images/banner2.jpg';
 const Contact = () => {
     return (
         <div>
-            <div className="contact-container d-flex justify-content-center align-items-center">
-                <Link to="/home" className="text-decoration-none">
-                    <h1 className="about-h1">Home </h1>
-                </Link>
-                <h5 className="about-h5"> Contact US </h5>
+            <div className="">
+                    <img src={images} style={{height:"480px"}} className="w-100" alt="" />
+ 
             </div>
             <Container className="my-5">
                 <form class="form-horizontal" >

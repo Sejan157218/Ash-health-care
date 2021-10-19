@@ -2,21 +2,23 @@ import React from 'react';
 import { Card, Col, Container, Nav, Row } from 'react-bootstrap';
 import "./Footer.css";
 import img from '../../../Images/banner/doctor.jpg'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
         <div className="footer-container mt-5" >
             <Container className="py-5">
                 <Row>
-                    <Col sm={4} xs={6}><h1>ASH Health-Care</h1></Col>
+                    <Col sm={4} xs={6}><h1>ASH Health-Care</h1>
+                    <p>ASH Health-Care hospital is a health care institution providing patient treatment with specialized medical and nursing staff and medical equipmen</p>
+                    
+                    </Col>
                     <Col sm={3} xs={6}>
                         <Nav className="flex-column content-footer">
                             <Nav className="flex-column content-footer">
-                                <Nav.Link >Home</Nav.Link>
-                                <Nav.Link >About Us</Nav.Link>
-                                <Nav.Link >Services</Nav.Link>
-                                <Nav.Link >Blog</Nav.Link>
-                                <Nav.Link >Contacts</Nav.Link>
+                                <Nav.Link as={Link} to="/home">Home</Nav.Link>
+                                <Nav.Link as={Link} to="/about">About Us</Nav.Link>
+                                <Nav.Link as={Link} to="/contact" >Contacts</Nav.Link>
 
                             </Nav>
 

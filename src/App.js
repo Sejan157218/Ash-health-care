@@ -4,25 +4,27 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 
 import Login from './Pages/Share/Login/Login';
 import SignUp from './Pages/Share/SignUp/SignUp';
 import AuthProvider from './Contexts/AuthProvider';
 import ServicesDitails from './Pages/ServicesDitails/ServicesDitails';
-import DataProvider from './Contexts/DataProvider';
 import PrivateRoute from './Pages/PrivateRoute/Privateroute';
 import About from './Pages/About/About';
 import Contact from './Pages/Contact/Contact';
 import NotFound from './Pages/NotFound/NotFound';
+import Header from './Pages/Share/Header/Header';
+import Footer from './Pages/Share/Footer/Footer';
 
 function App() {
   return (
     <div>
-      <DataProvider>
+           
+
       <AuthProvider>
       <Router>
+      <Header></Header>
         <Switch>
           <Route exact path="/">
             <Home />
@@ -49,9 +51,10 @@ function App() {
             <NotFound />
           </Route>
         </Switch>
+        <Footer></Footer>
       </Router>
       </AuthProvider>
-      </DataProvider>
+
     </div>
   );
 }

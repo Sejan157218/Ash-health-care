@@ -1,10 +1,9 @@
-import Button from '@restart/ui/esm/Button';
-import React, { useEffect, useState } from 'react';
+
+import React from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
-import useData from '../../hooks/useData';
-import useServiceData from '../../hooks/useServiceData';
+
 import useServicesData from '../../hooks/useServicesData';
 
 const ServicesDitails = () => {
@@ -24,7 +23,7 @@ const ServicesDitails = () => {
           {newService[0]?.desc}
           </Card.Text>
         </Card.Body>
-        <Link to="/home"> <button className="btn-regul">Go back <i class="fas fa-chevron-right ms-2"></i></button></Link>
+        <Link to="/home"> <button className="banner-btn">Go back <i class="fas fa-chevron-right ms-2"></i></button></Link>
       </Card>
     </Col>
   </Row>

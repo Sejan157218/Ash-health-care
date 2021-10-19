@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Card, Col, Container, Nav, Row } from 'react-bootstrap';
+import {Col, Container, Nav, Row } from 'react-bootstrap';
 import "./Services.css";
-import img from "../../../../Images/banner/doctor.jpg"
+
 import Cardiology from '../Cardiology/Cardiology';
 import Laboratory from '../Laboratory/Laboratory';
 import Pediatrics from '../Pediatrics/Pediatrics';
@@ -10,15 +10,15 @@ import Therapist from '../Therapist/Therapist';
 
 import SmoothList from 'react-smooth-list';
 import { Link } from 'react-router-dom';
-import useAuth from '../../../../hooks/useAuth';
+
 import useData from '../../../../hooks/useData';
 import Gastroenterology from '../Gastroenterology/Gastroenterology';
-import useServiceData from '../../../../hooks/useServiceData';
+
 
 
 const Services = () => {
     const [active, setActive] = useState('cardiology');
-   const [cardiology, laboratory, gastroenterology,pediatrics,surgery,therapist] = useServiceData();
+   const [cardiology, laboratory, gastroenterology,pediatrics,surgery,therapist] = useData();
     return (
         <Container className="my-5">
             <Row>

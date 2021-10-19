@@ -9,8 +9,8 @@ import useAuth from '../../../hooks/useAuth';
 
 const Register = () => {
     const [errorSignup,setErrorSignup] = useState('')
-    const {user,signInWithGoogle,handlerEmailSignUp,error,} =useAuth();
-    const { register, handleSubmit, watch, formState: { errors} } = useForm();
+    const {signInWithGoogle,handlerEmailSignUp} =useAuth();
+    const { register, handleSubmit, formState: { errors} } = useForm();
     const regularExpression = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/
     const onSubmit =( {name,email,password,rePassword} )=> {
        if(password==rePassword){

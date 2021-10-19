@@ -22,12 +22,12 @@ const Header = () => {
 
         <Navbar collapseOnSelect expand="md" sticky="top" className={scroll ? "nav-container" : "nav-container-scroll"}>
             <Container>
-                <Navbar.Brand as={Link} to="/">ASH Health-Care</Navbar.Brand>
+                <Navbar.Brand as={Link} to="/" className='header-h1'>ASH Health-Care</Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-end">
                     <Navbar.Text>
                         <Nav className="me-auto header-nav">
-                            <Nav.Link className="nav-color" as={Link} to="/home">Home</Nav.Link>
+                            <Nav.Link className="nav-color" as={Link} to="/">Home</Nav.Link>
                             
                             <Nav.Link as={Link} to="/about">About</Nav.Link>
                             <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
@@ -38,10 +38,10 @@ const Header = () => {
                             {
                                 user.email ?
                                     <Navbar.Text style={{ display: 'flex' }}>
-                                        <Nav.Link as={Link} to="">{user.displayName || user?.email}</Nav.Link>
+                                        <Nav.Link as={Link} style={{marginRight:"1rem"}} to="">{user.displayName || user?.email}</Nav.Link>
                                         <Nav.Link onClick={() => logOut()}> Log Out</Nav.Link>
                                     </Navbar.Text> :
-                                    <Navbar.Text style={{ display: 'flex' }}><Nav.Link as={Link} to="/signup">Sign Up</Nav.Link>
+                                    <Navbar.Text style={{ display: 'flex' }}><Nav.Link as={Link} style={{marginRight:"1rem"}} to="/signup">Sign Up</Nav.Link>
                                         <Nav.Link as={Link} to="/login"> Login</Nav.Link>
                                     </Navbar.Text>
                             }
