@@ -1,0 +1,17 @@
+.contact-container{
+    background-image: url("../../Images/login/blur-hospital.jpg")
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    height: 380px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-contact{
+    padding: 10px 20px;
+    background-color: #fc6b4f;
+    color: #ffffff;
+    border: none;
+    margin-top: 5px;
+}

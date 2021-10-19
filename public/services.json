@@ -1,0 +1,158 @@
+[
+    {
+        "key": "cardiology1",
+        "title": "Cardiac Catheterization",
+        "desc": "In cardiac catheterization (often called cardiac cath), your doctor puts a very small, flexible, hollow tube (called a catheter) into a blood vessel in the groin, arm, or neck. Then he or she threads it through the blood vessel into the aorta and into the heart. Once the catheter is in place, several tests may be done. Your doctor can place the tip of the catheter into various parts of the heart to measure the pressures within the heart chambers or take blood samples to measure oxygen levels.Your doctor can guide the catheter into the coronary arteries and inject contrast dye to check blood flow through them. (The coronary arteries are the vessels that carry blood to the heart muscle.) This is called coronary angiography.These are some of the other procedures that may be done during or after a cardiac cath:",
+        "img": "https://i.ibb.co/nrcpqL5/Detailed-illustration-showing-vascular-stent-inside-the-vein.jpg"
+    },
+    {
+        "key": "cardiology2",
+        "title": "Alcohol Septal Ablation",
+        "desc": "Alcohol septal ablation is a non-surgical procedure to treat hypertrophic cardiomyopathy. This is an inherited condition in which your heart muscle is abnormally thick. This procedure decreases your symptoms and to reduces future complications.Your left and right ventricles are the 2 lower chambers of your heart. A muscular wall called the septum separates these 2 ventricles. In hypertrophic cardiomyopathy, the walls of your ventricles and septum may thicken abnormally. The septum may bulge into your left ventricle and partially block the blood flow out to your body. This places extra pressure on your heart. It also contributes to many symptoms of the disease. These may include fatigue and shortness of breath.",
+        "img": "https://i.ibb.co/GHcrhtx/alcohol.png"
+    },
+    {
+        "key": "cardiology3",
+        "title": "Aneurysm Clipping",
+        "desc": "The goal of surgical clipping is to isolate an aneurysm from the normal circulation without blocking off any small perforating arteries nearby. Under general anesthesia, an opening is made in the skull, called a craniotomy. The brain is gently retracted to locate the aneurysm. A small clip is placed across the base, or neck, of the aneurysm to block the normal blood flow from entering. The clip works like a tiny coil-spring clothespin, in which the blades of the clip remain tightly closed until pressure is applied to open the blades. Clips are made of titanium and remain on the artery permanently.",
+        "img": "https://i.ibb.co/vC9x15h/atrial.jpg"
+    },
+    {
+        "key": "cardiology4",
+        "title": "Atherectomy",
+        "desc": "An atherectomy is a procedure to remove plaque from an artery (blood vessel). Removing plaque makes the artery wider, so blood can flow more freely to the heart muscles. In an atherectomy, the plaque is shaved or vaporized away with tiny rotating blades or a laser on the end of a catheter (a thin, flexible tube).This procedure is used to treat peripheral artery disease and coronary artery disease. An atherectomy is sometimes performed on patients with very hard plaque or on patients who have already had angioplasty and stents, but who still have plaque blocking the flow of blood.",
+        "img": "https://i.ibb.co/9TdFqMT/atherectomy.jpg"
+    },
+    {
+        "key": "cardiology5",
+        "title": "Atrial Fibrillation Ablation",
+        "desc": "Atrial fibrillation ablation is a treatment for an irregular and chaotic heartbeat called atrial fibrillation (A-fib). It uses heat or cold energy to create tiny scars in your heart to block the abnormal electrical signals and restore a normal heartbeat.Atrial fibrillation ablation may be used if medications or other treatments don't work. Sometimes it's the first treatment for certain patients.Atrial fibrillation ablation is most often done using thin, flexible tubes called catheters inserted through the veins or arteries to the heart. Less commonly, ablation is performed during cardiac surgery.",
+        "img": "https://i.ibb.co/vC9x15h/atrial.jpg"
+    },
+    {
+        "key": "cardiology6",
+        "title": "Atrial Septostomy",
+        "desc": "Atrial septostomy (AS) is a palliative treatment for right ventricular failure from severe pulmonary arterial hypertension (PAH). We sought to investigate the effect of AS, alone or combined with PAH-specific pharmacotherapy, on the survival of patients with PAH.We performed a retrospective analysis of the functional and haemodynamic changes in patients with PAH following AS, and long-term survival characteristics for the whole group and separately for the subgroup who received post-procedural pharmacotherapy.50 procedures performed in 34 patients (mean±sd age 35±10 yrs) resulted in haemodynamic and symptomatic improvement in most of the patients. Only one (2%) procedure-related death occurred. Due to spontaneous closure of the defect, AS was repeated in 10 patients. In 21 patients, AS was the only form of treatment, while 11 received additional pharmacotherapy after AS. During follow-up (58.5±38 months), 21 patients died; median survival of the group was 60 months (95% CI 43–77 months). Median survival for patients on pharmacotherapy additional to AS was 83 months (95% CI 57–109 months), which was better than that for patients with AS alone (53 months, 95% CI 39–67 months) (log-rank 6.52; p=0.010).",
+        "img": "https://i.ibb.co/PWMjq5v/Surgeon-cuts-the-patient-during-procedure-in-the-hands-of-the-surgeon-and-assistant-during-the-opera.jpg"
+    },
+    {
+        "key": "gastroenterology1",
+        "title": "Gastroenterology",
+        "desc": "Gastroenterology is the study of the normal function and diseases of the esophagus, stomach, small intestine, colon and rectum, pancreas, gallbladder, bile ducts and liver. It involves a detailed understanding of the normal action (physiology) of the gastrointestinal organs including the movement of material through the stomach and intestine (motility), the digestion and absorption of nutrients into the body, removal of waste from the system, and the function of the liver as a digestive organ. It includes common and important conditions such as colon polyps and cancer, hepatitis, gastroesophageal reflux (heartburn), peptic ulcer disease, colitis, gallbladder and biliary tract disease, nutritional problems, Irritable Bowel Syndrome (IBS), and pancreatitis. In essence, all normal activity and disease of the digestive organs is part of the study of Gastroenterology.",
+        "img": "https://i.ibb.co/XzKyfGS/At-doctors-appointment-physician-shows-to-patient-shape-of-stomach-with-focus-on-hand-with-organ-Sce.jpg"
+    },
+    {
+        "key": "laboratory2",
+        "title": "Hematology",
+        "desc": "Hematology is the study of blood, blood morphology and blood diseases. Hematologists count and classify blood cells into different categories. Coagulation is the study of the clotting activity of blood.Chemistry performs a wide variety of tests using the most current technology. It is defined as the scientific study of matter and the various compounds of the elements as it relates to the human body. Common tests analyzed in the chemistry laboratory are glucose, cholesterol, BUN, creatinine, potassium, liver and heart enzymes, thyroid  tests and hormone tests, and PSA",
+        "img": "https://i.ibb.co/zsV4Qsf/Beautiful-abstract-photography-of-mold-in-a-pan.jpg"
+    },
+    {
+        "key": "laboratory1",
+        "title": "Microbiology",
+        "desc": "Microbiology is the study of microorganisms including algae, bacteria, fungi, protozoa and viruses. Any bodily fluid or tissue can be cultured for infectious disease. Once bacteria grows in culture, it can be tested against many different antibiotics to find the most effective for fighting the infection while limiting opportunities for antibiotic resistance.",
+        "img": "https://i.ibb.co/52tyzK0/One-of-the-blood-cells-looks-like-a-heart-3-D-render.jpg"
+    },
+    {
+        "key": "laboratory3",
+        "title": "Transfusion Services",
+        "desc": "Transfusion Services provides blood transfusion support by providing the patient with red cells, plasma, cryoprecipitate, or platelets. Testing is performed on the patient’s blood specimen prior to transfusing to make sure compatible blood is given. Blood products dispensed  by Winona Health are supplied by the American Red Cross of St Paul, MN",
+        "img": "https://i.ibb.co/DRqVvJ5/Red-blood-cells-in-travel-an-artery.jpg"
+    },
+    {
+        "key": "laboratory4",
+        "title": "Surgical Pathology",
+        "desc": "Pathology is the branch of medicine, which treats the essential nature of disease, especially the structural and functional changes in tissues and organs of the body, which cause or are caused by disease.Transfusion Services provides blood transfusion support by providing the patient with red cells, plasma, cryoprecipitate, or platelets. Testing is performed on the patient’s blood specimen prior to transfusing to make sure compatible blood is given. Blood products dispensed  by Winona Health are supplied by the American Red Cross of St Paul, MN",
+        "img": "https://i.ibb.co/g3xDX4p/Gynecologist-holds-a-brush-for-sampling-liquid-cytology.jpg"
+    },
+    {
+        "key": "laboratory5",
+        "title": "Cytology",
+        "desc": "In cytology, a skilled cytotechnologist examines human cells under the microscope, looking for early signs of cancer and other diseases. The most common type of specimen processed in the Cytology department is the Pap smear  or platelets. Testing is performed on the patient’s blood specimen prior to transfusing to make sure compatible blood is given. Blood products dispensed  by Winona Health are supplied by the American Red Cross of St Paul, MN,",
+        "img": "https://i.ibb.co/tH24TpL/Human-Abdomen-Stomach-Cancer-Human-Stomach-Internal-Organ-Human-Digestive-System-Medical-Exam.jpg"
+    },
+    {
+        "key": "lsurgery1",
+        "title": "Cataract Surgery",
+        "desc": "Surgery is medical treatment provided through an opening in the body. Traditionally, this meant making a large incision to perform the procedure, but advances in technology allow for making a few small (less than 1 centimeter) incisions and using tiny tools and cameras.The purpose of surgery varies, but it may be recommended for making or confirming a diagnosis, removing damaged tissue or an obstruction, repairing or repositioning tissues or organs, implanting devices, redirecting blood vessels, or transplanting tissues or organs. Some people opt for surgery for cosmetic reasons.Learning that you need surgery can be a confusing and intimidating prospect, and you may have many questions. It can be helpful to understand basic surgical terminology.",
+        "img": "https://i.ibb.co/TKxgkF9/Modern-operation-room-with-robotic-surgery-equipment.jpg"
+    },
+    {
+        "key": "lsurgery2",
+        "title": "Burn Excision",
+        "desc": "Surgery is medical treatment provided through an opening in the body. Traditionally, this meant making a large incision to perform the procedure, but advances in technology allow for making a few small (less than 1 centimeter) incisions and using tiny tools and cameras.The purpose of surgery varies, but it may be recommended for making or confirming a diagnosis, removing damaged tissue or an obstruction, repairing or repositioning tissues or organs, implanting devices, redirecting blood vessels, or transplanting tissues or organs. Some people opt for surgery for cosmetic reasons.Learning that you need surgery can be a confusing and intimidating prospect, and you may have many questions. It can be helpful to understand basic surgical terminology.",
+        "img": "https://i.ibb.co/Qk749d4/Asian-doctor-and-an-assistant-in-the-operating-room-for-surgical-venous-vascular-surgery-clinic-in-h.jpg"
+    },
+    {
+        "key": "lsurgery3",
+        "title": "Arthroscopy",
+        "desc": "Surgery is medical treatment provided through an opening in the body. Traditionally, this meant making a large incision to perform the procedure, but advances in technology allow for making a few small (less than 1 centimeter) incisions and using tiny tools and cameras.The purpose of surgery varies, but it may be recommended for making or confirming a diagnosis, removing damaged tissue or an obstruction, repairing or repositioning tissues or organs, implanting devices, redirecting blood vessels, or transplanting tissues or organs. Some people opt for surgery for cosmetic reasons.Learning that you need surgery can be a confusing and intimidating prospect, and you may have many questions. It can be helpful to understand basic surgical terminology.",
+        "img": "https://i.ibb.co/Q90cjhD/Surgical-tools-lying-on-table-while-group-of-surgeons-at-background-operating-patient-in-surgical-th.jpg"
+    },
+    {
+        "key": "lsurgery4",
+        "title": "Dental Restoration",
+        "desc": "Surgery is medical treatment provided through an opening in the body. Traditionally, this meant making a large incision to perform the procedure, but advances in technology allow for making a few small (less than 1 centimeter) incisions and using tiny tools and cameras.The purpose of surgery varies, but it may be recommended for making or confirming a diagnosis, removing damaged tissue or an obstruction, repairing or repositioning tissues or organs, implanting devices, redirecting blood vessels, or transplanting tissues or organs. Some people opt for surgery for cosmetic reasons.Learning that you need surgery can be a confusing and intimidating prospect, and you may have many questions. It can be helpful to understand basic surgical terminology.",
+        "img": "https://i.ibb.co/ZdjCHXj/Shot-of-a-team-of-surgeons-performing-a-surgery-in-an-operating-room.jpg"
+    },
+    {
+        "key": "lsurgery5",
+        "title": "Gastric Bypass",
+        "desc": "Surgery is medical treatment provided through an opening in the body. Traditionally, this meant making a large incision to perform the procedure, but advances in technology allow for making a few small (less than 1 centimeter) incisions and using tiny tools and cameras.The purpose of surgery varies, but it may be recommended for making or confirming a diagnosis, removing damaged tissue or an obstruction, repairing or repositioning tissues or organs, implanting devices, redirecting blood vessels, or transplanting tissues or organs. Some people opt for surgery for cosmetic reasons.Learning that you need surgery can be a confusing and intimidating prospect, and you may have many questions. It can be helpful to understand basic surgical terminology.",
+        "img": "https://i.ibb.co/RvyVQqw/Shot-of-a-tray-of-surgical-equipment-in-an-operating-theatre.jpg"
+    },
+    {
+        "key": "Therapist2",
+        "title": "Divorce therapist",
+        "desc": "A therapist is a broad designation that refers to professionals who are trained to provide treatment and rehabilitation. The term is often applied to psychologists, but it can include others who provide a variety of services, including social workers, counselors, life coaches, and many others.The term therapist is not a protected occupational title, but there are many types of therapists who do need to be licensed in order to practice. This includes occupational therapists and marriage and family therapists.Your therapist, sometimes known as a psychotherapist or counselor, is an important part of your treatment team to overcome your mental health issue. Here is a brief look at exactly what to expect from your therapist or counselor.",
+        "img": "https://i.ibb.co/CbhDFXh/A-mature-adult-female-therapist-uses-her-digital-tablet-to-take-notes-as-she-listens-to-her-mid-adul.jpg"
+    },
+    {
+        "key": "Therapist3",
+        "title": "Behavioral therapist",
+        "desc": "A therapist is a broad designation that refers to professionals who are trained to provide treatment and rehabilitation. The term is often applied to psychologists, but it can include others who provide a variety of services, including social workers, counselors, life coaches, and many others.The term therapist is not a protected occupational title, but there are many types of therapists who do need to be licensed in order to practice. This includes occupational therapists and marriage and family therapists.Your therapist, sometimes known as a psychotherapist or counselor, is an important part of your treatment team to overcome your mental health issue. Here is a brief look at exactly what to expect from your therapist or counselor.",
+        "img": "https://i.ibb.co/v3YdrdJ/During-a-counseling-session-the-unrecognizable-mid-adult-female-patient-gestures-while-speaking-The.jpg"
+    },
+    {
+        "key": "Therapist4",
+        "title": "Clinical therapist",
+        "desc": "A therapist is a broad designation that refers to professionals who are trained to provide treatment and rehabilitation. The term is often applied to psychologists, but it can include others who provide a variety of services, including social workers, counselors, life coaches, and many others.The term therapist is not a protected occupational title, but there are many types of therapists who do need to be licensed in order to practice. This includes occupational therapists and marriage and family therapists.Your therapist, sometimes known as a psychotherapist or counselor, is an important part of your treatment team to overcome your mental health issue. Here is a brief look at exactly what to expect from your therapist or counselor.",
+        "img": "https://i.ibb.co/tpmSGGY/Successful-psychologist-talking-to-her-patient.jpg"
+    },
+    {
+        "key": "Therapist5",
+        "title": "Cognitive therapist",
+        "desc": "A therapist is a broad designation that refers to professionals who are trained to provide treatment and rehabilitation. The term is often applied to psychologists, but it can include others who provide a variety of services, including social workers, counselors, life coaches, and many others.The term therapist is not a protected occupational title, but there are many types of therapists who do need to be licensed in order to practice. This includes occupational therapists and marriage and family therapists.Your therapist, sometimes known as a psychotherapist or counselor, is an important part of your treatment team to overcome your mental health issue. Here is a brief look at exactly what to expect from your therapist or counselor.",
+        "img": "https://i.ibb.co/tpmSGGY/Successful-psychologist-talking-to-her-patient.jpg"
+    },
+    {
+        "key": "Paediatric1",
+        "title": "Paediatric Allergy",
+        "desc": "The Department of Paediatrics of Evercare Hospital Dhaka provides comprehensive healthcare services for children and adolescents below the age of 15. We offer a multidisciplinary approach to care, primarily provided by our expert paediatric specialists, as well as a multi-specialty team of clinicians and surgeons. Our specialists have advanced training and vast experience in virtually every sub-discipline of paediatric medicine. Our paediatric services provide family centred care that is consistent, supportive and nurturing which meets the physical, emotional and psychosocial needs of our patients. We provide state-of-the-art paediatric care in the form of open communication, emotional support and education to all of our patients as well to their families. Our goal is to maintain an environment conducive to healing that is reflective of trust, honesty and respect to our patients, their families and our staff.",
+        "img": "https://i.ibb.co/Vt9w2pz/Cropped-shot-of-an-adorable-young-girl-with-her-pediatrician.jpg"
+    },
+    {
+        "key": "Paediatric2",
+        "title": "Paediatric Endocrinology",
+        "desc": "The Department of Paediatrics of Evercare Hospital Dhaka provides comprehensive healthcare services for children and adolescents below the age of 15. We offer a multidisciplinary approach to care, primarily provided by our expert paediatric specialists, as well as a multi-specialty team of clinicians and surgeons. Our specialists have advanced training and vast experience in virtually every sub-discipline of paediatric medicine. Our paediatric services provide family centred care that is consistent, supportive and nurturing which meets the physical, emotional and psychosocial needs of our patients. We provide state-of-the-art paediatric care in the form of open communication, emotional support and education to all of our patients as well to their families. Our goal is to maintain an environment conducive to healing that is reflective of trust, honesty and respect to our patients, their families and our staff.",
+        "img": "https://i.ibb.co/rcZ3kNL/Close-up-of-a-young-family-at-a-Pediatrician-s-Office.jpg"
+    },
+    {
+        "key": "Paediatric3",
+        "title": "Paediatric Gastroenterology",
+        "desc": "The Department of Paediatrics of Evercare Hospital Dhaka provides comprehensive healthcare services for children and adolescents below the age of 15. We offer a multidisciplinary approach to care, primarily provided by our expert paediatric specialists, as well as a multi-specialty team of clinicians and surgeons. Our specialists have advanced training and vast experience in virtually every sub-discipline of paediatric medicine. Our paediatric services provide family centred care that is consistent, supportive and nurturing which meets the physical, emotional and psychosocial needs of our patients. We provide state-of-the-art paediatric care in the form of open communication, emotional support and education to all of our patients as well to their families. Our goal is to maintain an environment conducive to healing that is reflective of trust, honesty and respect to our patients, their families and our staff.",
+        "img": "https://i.ibb.co/bNgQpXJ/Wearing-a-mask-because-of-COVID-19-the-mid-adult-female-doctor-smiles-as-her-young-patient-speaks.jpg"
+    },
+    {
+        "key": "Paediatric4",
+        "title": "Paediatric Pulmonology",
+        "desc": "The Department of Paediatrics of Evercare Hospital Dhaka provides comprehensive healthcare services for children and adolescents below the age of 15. We offer a multidisciplinary approach to care, primarily provided by our expert paediatric specialists, as well as a multi-specialty team of clinicians and surgeons. Our specialists have advanced training and vast experience in virtually every sub-discipline of paediatric medicine. Our paediatric services provide family centred care that is consistent, supportive and nurturing which meets the physical, emotional and psychosocial needs of our patients. We provide state-of-the-art paediatric care in the form of open communication, emotional support and education to all of our patients as well to their families. Our goal is to maintain an environment conducive to healing that is reflective of trust, honesty and respect to our patients, their families and our staff.",
+        "img": "https://i.ibb.co/JdZVT8N/Family-doctor-examining-throat-of-a-small-black-boy-while-visiting-him-at-home-during-coronavirus-pa.jpg"
+    },
+    {
+        "key": "Paediatric5",
+        "title": "pediatrics1",
+        "desc": "The Department of Paediatrics of Evercare Hospital Dhaka provides comprehensive healthcare services for children and adolescents below the age of 15. We offer a multidisciplinary approach to care, primarily provided by our expert paediatric specialists, as well as a multi-specialty team of clinicians and surgeons. Our specialists have advanced training and vast experience in virtually every sub-discipline of paediatric medicine. Our paediatric services provide family centred care that is consistent, supportive and nurturing which meets the physical, emotional and psychosocial needs of our patients. We provide state-of-the-art paediatric care in the form of open communication, emotional support and education to all of our patients as well to their families. Our goal is to maintain an environment conducive to healing that is reflective of trust, honesty and respect to our patients, their families and our staff.",
+        "img": "https://i.ibb.co/9bS9k5B/Close-up-of-a-pediatrician-having-a-check-up-on-his-patient.jpg"
+    }
+]

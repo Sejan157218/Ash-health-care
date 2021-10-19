@@ -9,18 +9,13 @@ initializeAuthentication();
 const useFirebase = () => {
     const [user, setUser] = useState({});
     const [error, setError] = useState('')
-    const [islogin, setLogin] = useState(false)
     const [isLoading, setIsloading] = useState(true)
 
     const auth = getAuth();
     const googleProvider = new GoogleAuthProvider();
     const signInWithGoogle = () => {
         setIsloading(true)
-        signInWithPopup(auth, googleProvider)
-            .then((result) => {
-                setUser(result.user);
-            })
-            .finally(() => setIsloading(false));
+        return signInWithPopup(auth, googleProvider)
     }
 
     const logOut = () => {
@@ -29,20 +24,13 @@ const useFirebase = () => {
 
         }).finally(() => setIsloading(false))
     }
-    const handlerToSubmit = (name, email, password) => {
-        islogin ?
-            handlerLogin(email, password, name)
-            :
-            handlerEmailSignUp(email, password)
-    }
 
-    const handlerEmailSignUp = (email, password, name) => {
+    const handlerEmailSignUp = (name,email, password) => {
         createUserWithEmailAndPassword(auth, email, password)
-            .then((user) => {
-
-                user.updateProfile({
-                    displayName: name,
-                })
+            .then((userCredential) => {
+                console.log(name);
+                const user = userCredential.user;
+                user.displayName=name;
 
             }).catch((error) => {
                 setError(error.message);
@@ -54,6 +42,7 @@ const useFirebase = () => {
     const handlerLogin = (email, password) => {
         signInWithEmailAndPassword(auth, email, password)
             .then((userCredential) => {
+                
                 setError('login is success')
             })
             .catch((error) => {
@@ -76,11 +65,10 @@ const useFirebase = () => {
         user,
         isLoading,
         signInWithGoogle,
-        user,
         error,
-        islogin,
-        setLogin,
-        handlerToSubmit,
+        handlerLogin,
+        handlerEmailSignUp,
+        // handlerToSubmit,
         logOut,
     }
 }

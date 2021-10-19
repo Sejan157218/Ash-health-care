@@ -1,0 +1,39 @@
+[
+    {
+        "key": "cardiology1",
+        "title": "Cardiac Catheterization",
+        "desc": "In cardiac catheterization (often called cardiac cath), your doctor puts a very small, flexible, hollow tube (called a catheter) into a blood vessel in the groin, arm, or neck. Then he or she threads it through the blood vessel into the aorta and into the heart. Once the catheter is in place, several tests may be done. Your doctor can place the tip of the catheter into various parts of the heart to measure the pressures within the heart chambers or take blood samples to measure oxygen levels.Your doctor can guide the catheter into the coronary arteries and inject contrast dye to check blood flow through them. (The coronary arteries are the vessels that carry blood to the heart muscle.) This is called coronary angiography.These are some of the other procedures that may be done during or after a cardiac cath:",
+        "img": "https://i.ibb.co/nrcpqL5/Detailed-illustration-showing-vascular-stent-inside-the-vein.jpg"
+    },
+    {
+        "key": "cardiology2",
+        "title": "Alcohol Septal Ablation",
+        "desc": "Alcohol septal ablation is a non-surgical procedure to treat hypertrophic cardiomyopathy. This is an inherited condition in which your heart muscle is abnormally thick. This procedure decreases your symptoms and to reduces future complications.Your left and right ventricles are the 2 lower chambers of your heart. A muscular wall called the septum separates these 2 ventricles. In hypertrophic cardiomyopathy, the walls of your ventricles and septum may thicken abnormally. The septum may bulge into your left ventricle and partially block the blood flow out to your body. This places extra pressure on your heart. It also contributes to many symptoms of the disease. These may include fatigue and shortness of breath.",
+        "img": "https://i.ibb.co/GHcrhtx/alcohol.png"
+    },
+    {
+        "key": "cardiology3",
+        "title": "Aneurysm Clipping",
+        "desc": "The goal of surgical clipping is to isolate an aneurysm from the normal circulation without blocking off any small perforating arteries nearby. Under general anesthesia, an opening is made in the skull, called a craniotomy. The brain is gently retracted to locate the aneurysm. A small clip is placed across the base, or neck, of the aneurysm to block the normal blood flow from entering. The clip works like a tiny coil-spring clothespin, in which the blades of the clip remain tightly closed until pressure is applied to open the blades. Clips are made of titanium and remain on the artery permanently.",
+        "img": "https://i.ibb.co/vC9x15h/atrial.jpg"
+    },
+    {
+        "key": "cardiology4",
+        "title": "Atherectomy",
+        "desc": "An atherectomy is a procedure to remove plaque from an artery (blood vessel). Removing plaque makes the artery wider, so blood can flow more freely to the heart muscles. In an atherectomy, the plaque is shaved or vaporized away with tiny rotating blades or a laser on the end of a catheter (a thin, flexible tube).This procedure is used to treat peripheral artery disease and coronary artery disease. An atherectomy is sometimes performed on patients with very hard plaque or on patients who have already had angioplasty and stents, but who still have plaque blocking the flow of blood.",
+        "img": "https://i.ibb.co/9TdFqMT/atherectomy.jpg"
+    },
+    {
+        "key": "cardiology5",
+        "title": "Atrial Fibrillation Ablation",
+        "desc": "Atrial fibrillation ablation is a treatment for an irregular and chaotic heartbeat called atrial fibrillation (A-fib). It uses heat or cold energy to create tiny scars in your heart to block the abnormal electrical signals and restore a normal heartbeat.Atrial fibrillation ablation may be used if medications or other treatments don't work. Sometimes it's the first treatment for certain patients.Atrial fibrillation ablation is most often done using thin, flexible tubes called catheters inserted through the veins or arteries to the heart. Less commonly, ablation is performed during cardiac surgery.",
+        "img": "https://i.ibb.co/vC9x15h/atrial.jpg"
+    },
+    {
+        "key": "cardiology6",
+        "title": "Atrial Septostomy",
+        "desc": "Atrial septostomy (AS) is a palliative treatment for right ventricular failure from severe pulmonary arterial hypertension (PAH). We sought to investigate the effect of AS, alone or combined with PAH-specific pharmacotherapy, on the survival of patients with PAH.We performed a retrospective analysis of the functional and haemodynamic changes in patients with PAH following AS, and long-term survival characteristics for the whole group and separately for the subgroup who received post-procedural pharmacotherapy.50 procedures performed in 34 patients (mean±sd age 35±10 yrs) resulted in haemodynamic and symptomatic improvement in most of the patients. Only one (2%) procedure-related death occurred. Due to spontaneous closure of the defect, AS was repeated in 10 patients. In 21 patients, AS was the only form of treatment, while 11 received additional pharmacotherapy after AS. During follow-up (58.5±38 months), 21 patients died; median survival of the group was 60 months (95% CI 43–77 months). Median survival for patients on pharmacotherapy additional to AS was 83 months (95% CI 57–109 months), which was better than that for patients with AS alone (53 months, 95% CI 39–67 months) (log-rank 6.52; p=0.010).",
+        "img": "https://i.ibb.co/PWMjq5v/Surgeon-cuts-the-patient-during-procedure-in-the-hands-of-the-surgeon-and-assistant-during-the-opera.jpg"
+    }
+  
+]

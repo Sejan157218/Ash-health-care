@@ -1,0 +1,32 @@
+[
+    {
+        "key": "laboratory2",
+        "title": "Hematology",
+        "desc": "Hematology is the study of blood, blood morphology and blood diseases. Hematologists count and classify blood cells into different categories. Coagulation is the study of the clotting activity of blood.Chemistry performs a wide variety of tests using the most current technology. It is defined as the scientific study of matter and the various compounds of the elements as it relates to the human body. Common tests analyzed in the chemistry laboratory are glucose, cholesterol, BUN, creatinine, potassium, liver and heart enzymes, thyroid  tests and hormone tests, and PSA",
+        "img": "https://i.ibb.co/zsV4Qsf/Beautiful-abstract-photography-of-mold-in-a-pan.jpg"
+    },
+    {
+        "key": "laboratory1", 
+        "title": "Microbiology",
+        "desc": "Microbiology is the study of microorganisms including algae, bacteria, fungi, protozoa and viruses. Any bodily fluid or tissue can be cultured for infectious disease. Once bacteria grows in culture, it can be tested against many different antibiotics to find the most effective for fighting the infection while limiting opportunities for antibiotic resistance.",
+        "img": "https://i.ibb.co/52tyzK0/One-of-the-blood-cells-looks-like-a-heart-3-D-render.jpg"
+    },
+    {
+        "key": "laboratory3",
+        "title": "Transfusion Services",
+        "desc": "Transfusion Services provides blood transfusion support by providing the patient with red cells, plasma, cryoprecipitate, or platelets. Testing is performed on the patient’s blood specimen prior to transfusing to make sure compatible blood is given. Blood products dispensed  by Winona Health are supplied by the American Red Cross of St Paul, MN",
+        "img": "https://i.ibb.co/DRqVvJ5/Red-blood-cells-in-travel-an-artery.jpg"
+    },
+    {
+        "key": "laboratory4",
+        "title": "Surgical Pathology",
+        "desc": "Pathology is the branch of medicine, which treats the essential nature of disease, especially the structural and functional changes in tissues and organs of the body, which cause or are caused by disease.Transfusion Services provides blood transfusion support by providing the patient with red cells, plasma, cryoprecipitate, or platelets. Testing is performed on the patient’s blood specimen prior to transfusing to make sure compatible blood is given. Blood products dispensed  by Winona Health are supplied by the American Red Cross of St Paul, MN",
+        "img": "https://i.ibb.co/g3xDX4p/Gynecologist-holds-a-brush-for-sampling-liquid-cytology.jpg"
+    },
+    {
+        "key": "laboratory5",
+        "title": "Cytology",
+        "desc": "In cytology, a skilled cytotechnologist examines human cells under the microscope, looking for early signs of cancer and other diseases. The most common type of specimen processed in the Cytology department is the Pap smear  or platelets. Testing is performed on the patient’s blood specimen prior to transfusing to make sure compatible blood is given. Blood products dispensed  by Winona Health are supplied by the American Red Cross of St Paul, MN,",
+        "img": "https://i.ibb.co/tH24TpL/Human-Abdomen-Stomach-Cancer-Human-Stomach-Internal-Organ-Human-Digestive-System-Medical-Exam.jpg"
+    }
+]

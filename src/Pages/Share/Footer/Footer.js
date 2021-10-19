@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer-container mt-5" >
             <Container className="py-5">
                 <Row>
-                    <Col sm={4} xs={6}></Col>
+                    <Col sm={4} xs={6}><h1>ASH Health-Care</h1></Col>
                     <Col sm={3} xs={6}>
                         <Nav className="flex-column content-footer">
                             <Nav className="flex-column content-footer">
@@ -39,7 +39,7 @@ const Footer = () => {
                 <hr style={{ color: "white" }} />
                 <Row className="mt-5 ms-3">
                     <Col sm={7} xs={12} className="d-flex align-items-center">
-                        <p className="mb-0">Copyright © 2021 ..... by Sejan Mahmud</p>
+                        <p className="mb-0">Copyright © 2021 ASH Health-Care by Sejan Mahmud</p>
                     </Col>
                     <Col sm={5} xs={12}>
                         <Nav className="content-footer">

@@ -9,14 +9,14 @@ import useAuth from '../../../hooks/useAuth';
 
 const Register = () => {
     const [errorSignup,setErrorSignup] = useState('')
-    const {user,signInWithGoogle,handlerGoogleSignIn,handlerToSubmit,error,islogin,setLogin,} =useAuth();
+    const {user,signInWithGoogle,handlerEmailSignUp,error,} =useAuth();
     const { register, handleSubmit, watch, formState: { errors} } = useForm();
     const regularExpression = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/
     const onSubmit =( {name,email,password,rePassword} )=> {
        if(password==rePassword){
         setErrorSignup('')
         if(regularExpression.test(password)){
-            handlerToSubmit(name,email,password);
+            handlerEmailSignUp(name,email,password);
         }
         else{
             setErrorSignup('Minimum eight characters, at least one letter and one number')

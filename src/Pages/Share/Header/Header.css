@@ -1,6 +1,21 @@
 .nav-container{
-    background-color: blanchedalmond;
+    background-color: #fff;
+    color: #fff;
+
 }
+/*  rgba(0, 0, 0, .75) */
 .nav-container-scroll{
-    background-color: black;
+    background-color: #fff;
+    color: #fff;
+
+}
+
+.header-nav a{
+    font-size: 20px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.nav-color{
+    color: #fff;
 }
