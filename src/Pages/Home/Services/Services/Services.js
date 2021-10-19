@@ -26,6 +26,7 @@ const Services = () => {
                         <Nav.Link as={Link} to={''} className="Services-nav" onClick={() => setActive('pediatrics')}><i class="fas fa-angle-right me-2 Services-arrow"></i>Pediatrics</Nav.Link>
                         <Nav.Link as={Link} to={''} className="Services-nav" onClick={() => setActive('surgery')}><i class="fas fa-angle-right me-2 Services-arrow"></i>Surgery</Nav.Link>
                         <Nav.Link as={Link} to={''} className="Services-nav" onClick={() => setActive('therapist')}><i class="fas fa-angle-right me-2 Services-arrow"></i>Therapist</Nav.Link>
+                        <Nav.Link as={Link} to={''} className="Services-nav" onClick={() => setActive('therapist')}><i class="fas fa-angle-right me-2 Services-arrow"></i>Therapist</Nav.Link>
                     </Nav>
                 </Col>
                 <Col xs={12} md={9}>
@@ -41,6 +42,9 @@ const Services = () => {
                         }
                         {
                             active === "surgery" && Array.from({ length: 6 }).map((_, idx) => <SmoothList><Surgery img={img}></Surgery></SmoothList>)
+                        }
+                        {
+                            active === "therapist" && Array.from({ length: 6 }).map((_, idx) =><SmoothList> <Therapist img={img}></Therapist></SmoothList>)
                         }
                         {
                             active === "therapist" && Array.from({ length: 6 }).map((_, idx) =><SmoothList> <Therapist img={img}></Therapist></SmoothList>)

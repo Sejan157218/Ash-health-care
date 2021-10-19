@@ -7,16 +7,28 @@ import {
   Link
 } from "react-router-dom";
 
+import Login from './Pages/Share/Login/Login';
+import SignUp from './Pages/Share/SignUp/SignUp';
+import AuthProvider from './Contexts/AuthProvider';
+
 function App() {
   return (
     <div>
+      <AuthProvider>
       <Router>
         <Switch>
-          <Route path="/">
+          <Route exact path="/">
             <Home />
+          </Route>
+          <Route path="/login">
+            <Login />
+          </Route>
+          <Route path="/signup">
+            <SignUp />
           </Route>
         </Switch>
       </Router>
+      </AuthProvider>
     </div>
   );
 }
