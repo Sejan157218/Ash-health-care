@@ -29,14 +29,14 @@ const Banner = () => {
                     <SwiperSlide>
                         <div style={{ position: 'absolute' }}>
                         <p >T-shirts</p>
-                        <button>sdfsf</button>
-                        <button>sdfsf</button>
+                        <button>About</button>
+                        <button>Contact</button>
                         </div>
                         <img src={img1} alt="" style={{}} />
                     </SwiperSlide>
                     <SwiperSlide>
                         <div style={{ position: 'absolute' }}>
-                        <p >T-shirts</p>
+                        <p >Ash Health Care</p>
                         <button>sdfsf</button>
                         <button>sdfsf</button>
                         </div>
