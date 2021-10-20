@@ -5,7 +5,7 @@ import 'swiper/swiper-bundle.min.css';
 import 'swiper/swiper.min.css';
 import 'swiper/components/navigation/navigation.min.css';
 import 'swiper/components/pagination/pagination.min.css';
-import SwiperCore, {Pagination, Autoplay} from 'swiper';
+import SwiperCore, { Pagination, Autoplay } from 'swiper';
 // Swiper import end
 import './Banner.css';
 import banner1 from "../../../Images/banner1.jpg";
@@ -20,7 +20,7 @@ SwiperCore.use([Autoplay, Pagination]);
 
 
 const Banner = () => {
-    
+
     return (
         <div className>
             <>
@@ -32,33 +32,37 @@ const Banner = () => {
                 }} className="banner-container">
                     <SwiperSlide>
                         <div style={{ position: 'absolute' }}>
-                        <h1 style={{color:"#2d2727",paddingBottom:"1rem"}}>Ash Health Care</h1>
-                        <Link to="/home"><button className="banner-btn">About</button></Link>
-                        <Link to="/contact"><button className="banner-btn ms-2 ">Contact</button></Link>
+                            <h1 style={{ color: "#2d2727", paddingBottom: "1rem" }}>We care and protect your health. </h1>
+                            <p>Only modern and best equipment advanced medical technologies and innovative diagnosis. </p>
+                            <Link to="/about"><button className="banner-btn">About</button></Link>
+                            <Link to="/contact"><button className="banner-btn ms-2 ">Contact</button></Link>
                         </div>
                         <img src={banner1} alt="" style={{}} />
                     </SwiperSlide>
                     <SwiperSlide>
                         <div style={{ position: 'absolute' }}>
-                        <h1 style={{color:"#2d2727",paddingBottom:"1rem"}}>Ash Health Care</h1>
-                        <Link to="/home"><button className="banner-btn">About</button></Link>
-                        <Link to="/contact"><button className="banner-btn ms-2 ">Contact</button></Link>
+                            <h1 style={{ color: "#2d2727", paddingBottom: "1rem" }}>Correct diagnosis is half the success. </h1>
+                            <p style={{ color: "#2d2727", paddingBottom: "1rem" }}>Deeper appreciation and concern for our client’s investments and the human experience. </p>
+                            <Link to="/about"><button className="banner-btn">About</button></Link>
+                            <Link to="/contact"><button className="banner-btn ms-2 ">Contact</button></Link>
                         </div>
                         <img src={banner2} alt="" style={{}} />
                     </SwiperSlide>
                     <SwiperSlide>
                         <div style={{ position: 'absolute' }}>
-                        <h1 style={{color:"#2d2727",paddingBottom:"1rem"}}>Ash Health Care</h1>
-                        <Link to="/home"><button className="banner-btn">About</button></Link>
-                        <Link to="/contact"><button className="banner-btn ms-2 ">Contact</button></Link>
+                        <h1 style={{ color: "#2d2727", paddingBottom: "1rem" }}>We care and protect your health. </h1>
+                            <p>Only modern and best equipment advanced medical technologies and innovative diagnosis. </p>
+                            <Link to="/about"><button className="banner-btn">About</button></Link>
+                            <Link to="/contact"><button className="banner-btn ms-2 ">Contact</button></Link>
                         </div>
                         <img src={banner3} alt="" style={{}} />
                     </SwiperSlide>
                     <SwiperSlide>
                         <div style={{ position: 'absolute' }}>
-                        <h1 style={{color:"#2d2727",paddingBottom:"1rem"}}>Ash Health Care</h1>
-                        <button className="banner-btn ms-2">About</button>
-                        <Link to="/contact"><button className="banner-btn ms-2 ">Contact</button></Link>
+                        <h1 style={{ color: "#2d2727", paddingBottom: "1rem" }}>Correct diagnosis is half the success. </h1>
+                            <p>Deeper appreciation and concern for our client’s investments and the human experience. </p>
+                            <Link to="/about"> <button className="banner-btn ms-2">About</button></Link>
+                            <Link to="/contact"><button className="banner-btn ms-2 ">Contact</button></Link>
                         </div>
                         <img src={banner4} alt="" style={{}} />
                     </SwiperSlide>

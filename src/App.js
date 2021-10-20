@@ -16,12 +16,11 @@ import Contact from './Pages/Contact/Contact';
 import NotFound from './Pages/NotFound/NotFound';
 import Header from './Pages/Share/Header/Header';
 import Footer from './Pages/Share/Footer/Footer';
+import OurBlogs from './Pages/OurBlogs/OurBlogs';
 
 function App() {
   return (
     <div>
-           
-
       <AuthProvider>
       <Router>
       <Header></Header>
@@ -43,6 +42,9 @@ function App() {
           </Route>
           <Route path="/about">
             <About />
+          </Route>
+          <Route path="/blog">
+            <OurBlogs />
           </Route>
           <PrivateRoute path="/Servicesditails/:Serviceid">
             <ServicesDitails />

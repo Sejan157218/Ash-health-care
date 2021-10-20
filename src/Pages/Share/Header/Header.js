@@ -20,7 +20,7 @@ const Header = () => {
     window.addEventListener('scroll', scrollOnChange)
     return (
 
-        <Navbar collapseOnSelect expand="md" sticky="top" className={scroll ? "nav-container" : "nav-container-scroll"}>
+        <Navbar collapseOnSelect expand="md" className={scroll ? "nav-container" : "nav-container-scroll"}>
             <Container>
                 <Navbar.Brand as={Link} to="/" className='header-h1'>ASH Health-Care</Navbar.Brand>
                 <Navbar.Toggle />
@@ -30,6 +30,7 @@ const Header = () => {
                             <Nav.Link className="nav-color" as={Link} to="/">Home</Nav.Link>
                             
                             <Nav.Link as={Link} to="/about">About</Nav.Link>
+                            <Nav.Link as={Link} to="/blog">Blog</Nav.Link>
                             <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
                         </Nav>
                     </Navbar.Text>
