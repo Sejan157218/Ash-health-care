@@ -17,11 +17,9 @@ const Login = () => {
     const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = ({ email, password }) => {
         handlerLogin(email, password)
-        .then((result) => {
-            console.log('gdfgdfg');
-            history.push(redirect_url);
-            console.log('gdfgdfg');
-        })  
+            .then((result) => {
+                history.push(redirect_url);
+            })
     }
 
 
@@ -32,7 +30,7 @@ const Login = () => {
             });
 
     }
-   
+
     return (
         <div className="login-div " style={{ height: "100vh" }}>
             <div className="text-center login-container py-5 shadow p-3 mb-5 rounded">

@@ -34,7 +34,7 @@ const Services = () => {
                     </Nav>
                 </Col>
                 <Col xs={12} md={9}>
-                    <Row xs={1} md={3} className="g-2">
+                    <Row xs={1} md={2} lg={3} className="g-2">
                         {
                             active === "cardiology" && cardiology.map(cardio=><SmoothList> <Cardiology cardio={cardio}></Cardiology></SmoothList>)
                         }

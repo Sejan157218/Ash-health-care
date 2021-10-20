@@ -10,7 +10,7 @@ const OurDoctor = () => {
     return (
         <div className="container">
             <h1 className="my-5">Our Doctor</h1>
-            <Row xs={1} md={4} className="g-2">
+            <Row xs={1}  md={2} lg={4} className="g-2">
                 <div className="card__collection clear-fix">
                     <div className="cards cards--two">
                         <img src={img1} className="img-responsive" alt="Cards Image" />
