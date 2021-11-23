@@ -6,13 +6,5 @@
 //     messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
 //     appId: process.env.REACT_APP_FIREBASE_APP_ID,
 //   };
-const firebaseConfig = {
-    apiKey: "AIzaSyANI2GjBmPCjwCQFkis9KPnfrVslu2geMs",
-    authDomain: "ash-health-care.firebaseapp.com",
-    projectId: "ash-health-care",
-    storageBucket: "ash-health-care.appspot.com",
-    messagingSenderId: "603412046393",
-    appId: "1:603412046393:web:916f489769070b95c923e8"
-  };
   
   export default firebaseConfig;
